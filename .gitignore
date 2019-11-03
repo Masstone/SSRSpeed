@@ -110,3 +110,5 @@ venv.bak/
 /logs
 
 /results
+config.json
+ssrspeed_config.json

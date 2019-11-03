@@ -54,7 +54,8 @@ class ParserShadowsocksSIP002:
 		_config["password"] = password
 		_config["remarks"] = remarks if remarks else server
 		if plugin.lower() in ["simple-obfs", "obfs-local"]:
-			plugin = "simple-obfs"
+			plugin = "obfs-local"
+			# fix error on terminating the plugin.
 		elif not plugin:
 			plugin = ""
 			plugin_opts = ""
